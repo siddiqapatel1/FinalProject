@@ -2,7 +2,7 @@ import os
 
 # Test for the existence of the updated figure
 def test_updated_figure_exists():
-    figure_path = './figures/cost_by_income_group_with_gridline.png'
+    figure_path = './figures/cost_by_income_group_with_gridlines.png'
     assert os.path.exists(figure_path), f"Updated figure not found at {figure_path}"
 
 # Test for archive of old figure
