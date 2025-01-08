@@ -58,7 +58,7 @@ try:
     plt.tight_layout()
 
     # Save the figure
-    plt.savefig('./figures/cost_by_income_group.png')
+    plt.savefig('./figures/cost_by_income_group_with_gridline')
     print("\nVisualization saved to './figures/cost_by_income_group.png'.")
 
 except KeyError as e:
