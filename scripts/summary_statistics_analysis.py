@@ -91,3 +91,20 @@ try:
 
 except Exception as e:
     print(f"Error calculating correlation coefficients: {e}")
+
+
+# Step 4: Calculate cost of a healthy diet by income group
+try:
+    # Group the data by Income Group and calculate the mean cost of a healthy diet
+    income_group_cost = merged_data.groupby('Income Group')['Cost of a healthy diet'].mean()
+
+    # Display the results
+    print("\nAverage Cost of a Healthy Diet by Income Group:")
+    print(income_group_cost)
+
+    # Save the results to a CSV file
+    income_group_cost.to_csv('./summary_stats_results/healthy_diet_cost_by_income_group.csv', index=True)
+    print("\nCost by income group saved to './summary_stats_results/healthy_diet_cost_by_income_group.csv'")
+
+except Exception as e:
+    print(f"Error calculating cost by income group: {e}")
