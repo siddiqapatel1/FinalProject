@@ -72,8 +72,8 @@ try:
     plt.tight_layout(rect=[0, 0.04, 1, 1])  
 
     # Save the figure
-    plt.savefig('./figures/cost_by_income_group_with_gridlines.png', bbox_inches='tight')
-    print("\nVisualization saved to './figures/cost_by_income_group_with_gridlines.png'.")
+    plt.savefig('./figures/cost_by_income_boxplot.png', bbox_inches='tight')
+    print("\nVisualization saved to './figures/cost_by_income_boxplot.png'.")
 
 except KeyError as e:
     print(f"KeyError: {e}. Check column names in the dataset.")
