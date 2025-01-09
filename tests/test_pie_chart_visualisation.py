@@ -18,7 +18,7 @@ import os
 
 def test_pie_chart_saved():
     # Path where the figure should be saved
-    output_path = './figures/pie_chart_cost_contributions.png'
+    output_path = './figures/food_group_pie_chart.png'
 
     # Check if the figure file exists
     assert os.path.exists(output_path), f"Pie chart not found at {output_path}"
