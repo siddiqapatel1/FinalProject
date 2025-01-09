@@ -1,0 +1,9 @@
+,Percent of the population who cannot afford sufficient calories,Percent of the population who cannot afford nutrient adequacy,Percent of the population who cannot afford a healthy diet
+count,157.0,157.0,157.0
+mean,15.623566878980892,27.11337579617834,32.55732484076433
+std,17.40123463099669,24.308743534969008,27.153153483153652
+min,0.0,0.3,0.6
+25%,2.6,5.8,7.6
+50%,9.0,19.4,25.9
+75%,20.9,44.5,55.2
+max,78.8,90.9,93.6
