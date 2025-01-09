@@ -44,7 +44,7 @@ def test_data_filtering():
 import os
 
 def test_figure_saved():
-    figure_path = './figures/population_affordability_bar_chart.png'
+    figure_path = './figures/affordability_bar_chart.png'
     assert os.path.exists(figure_path), f"Figure not found at {figure_path}"
 
 

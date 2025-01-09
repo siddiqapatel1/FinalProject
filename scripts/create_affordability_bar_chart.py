@@ -86,7 +86,7 @@ try:
 
     # Step 6: Save and display the figure
     # Save the final plot as a PNG file
-    plt.savefig('./figures/population_affordability_bar_chart.png', bbox_inches='tight')
+    plt.savefig('./figures/affordability_bar_chart.png', bbox_inches='tight')
     print("Figure saved to './figures/population_affordability_bar_chart.png'")
 
     plt.show()
