@@ -3,7 +3,7 @@
 ## Author
 **Siddiqa Patel**  
 Queen Mary University of London  
-Date: 10/01/2024
+Date: 10/01/2025
 
 ## Project Overview
 This project examines the economic barriers to accessing healthy diets globally, focusing on disparities across income groups and regions. The analysis reveals significant challenges in diet affordability, particularly in low-income countries, and reinforces the need for targeted policy interventions to improve global food security and public health outcomes.
