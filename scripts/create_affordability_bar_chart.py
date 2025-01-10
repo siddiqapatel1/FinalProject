@@ -56,7 +56,7 @@ try:
 
         # Add percentage labels to each bar
         for index, value in enumerate(affordability_data[diet]):
-            ax.text(value + 2, index, f"{value:.1f}%", va='center', fontsize=12, color='black', fontweight = 'bold')
+            ax.text(value + 2, index, f"{value:.1f}%", va='center', fontsize=15, color='black', fontweight = 'bold')
 
         # Remove unnecessary spines and grid lines for a cleaner look
         ax.spines['top'].set_visible(False)
@@ -79,7 +79,7 @@ try:
 
     # Add a shared title for the entire figure
     fig.suptitle('Share of Population Unable to Afford Different Diet Standards, 2021', 
-                 fontsize=18, fontweight='bold', y=1.02)
+                 fontsize=20, fontweight='bold', y=1.02)
 
     # Adjust the layout for better spacing
     plt.tight_layout(w_pad=3, rect=[0, 0.05, 1, 0.95])  # Add space at the top for the title
