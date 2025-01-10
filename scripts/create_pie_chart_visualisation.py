@@ -32,14 +32,14 @@ plt.pie(
     colors=colors,  # Apply the defined color palette
     explode=explode,  # Separate the "Animal-Source Foods" slice
     wedgeprops={'edgecolor': 'white', 'linewidth': 1.5},  # Add white borders for better slice visibility
-    textprops={'fontsize': 10, 'fontweight': 'bold'}  # Set smaller font size for percentages
+    textprops={'fontsize': 12, 'fontweight': 'bold'}  # Set smaller font size for percentages
 )
 
 # Step 5: Add a title with proper formatting
 # Title is split across two lines for better readability
 plt.title(
     'Average Percentage Contribution of Each Food Group\n to the Cost of a Healthy Diet', 
-    fontsize=18, fontweight='bold', pad=20  # Set font size, weight, and padding
+    fontsize=15, fontweight='bold', pad=20  # Set font size, weight, and padding
 )
 
 # Step 6: Add the legend to the right of the chart
