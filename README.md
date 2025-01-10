@@ -46,7 +46,7 @@ To run the analysis, ensure the following dependencies are installed:
 
 ## Usage
 To run the analysis:
-1. Clone the repository: \`git clone https://github.com/siddiqapatel1/FinalProject.git\`
+1. Clone the repository: git clone https://github.com/siddiqapatel1/FinalProject.git
 2. Run the scripts.
 
 ## Acknowledgments
